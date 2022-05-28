@@ -21,9 +21,7 @@ class MainActivity : AppCompatActivity() {
         logoutButton.setOnClickListener { logoutUser() }
 
 
-        val intent = Intent(this, MapsActivity::class.java)
-        startActivity(intent)
-        finish()
+
     }
 
     private fun logoutUser() {
